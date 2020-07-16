@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+#container {
+	min-width: 754px;
+	max-width: 710px; 
+	width: 100%;
+	margin: 3.25rem auto 0 auto; 
+}
+
+#header {
+	margin-bottom: 40px; 
+}
+
+#logo {
+	width: 170px;
+	position: fixed; 
+	top: 40px;
+	left: 40px; 
+	filter: contrast(1.5);
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: white;
+}
+
+body::before {
+	position: fixed;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(rgba(34, 115, 221, 0.5), rgba(34, 115, 221, 0.5)), url(pool.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	content: '';
+}
+
+form {
+  background: rgba(13, 40, 104, 0.95);
+  padding: 2.5rem; 
+  border-radius: 10px;
+  min-width: 480px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 350;
+	line-height: 1.3;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+p {
+	font-size: 1.25rem;
+	margin-top: 0;
+	margin-bottom: 0.4rem;
+}
+
+#description {
+	font-style: italic;
+	font-weight: 350;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+label {
+	font-size: 1.25rem;
+	margin-bottom: 0.4rem;
+	display: flex;
+	align-items: center;
+}
+
+input,
+button,
+select,
+textarea {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+
+.surveyinput {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.inputboxes {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.4rem 0.8rem;
+  color: rgba(99,99,99,1.00);
+  background-color: white;
+  background-clip: padding-box;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.radiobuttons,
+.checkboxes {
+	display: inline-block;
+	margin-right: 0.6rem;
+	min-height: 1.1rem;
+	min-width: 1.1rem;
+}
+
+#textbox {
+	min-height: 120px;
+	width: 100%;
+	padding: 0.6rem;
+	resize: none;
+}
+
+#submit {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	background: #37af65;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}

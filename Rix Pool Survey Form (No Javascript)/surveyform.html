@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+
+<link href="surveyform.css" rel="stylesheet" type="text/css">
+
+<head>
+	<title>Rix Pool and Spa Survey</title>
+</head>
+
+	
+<body>
+	<div>
+		<a href = "https://rixpoolandspa.com/"><img id = "logo" src = "rixpoollogo.png" alt = "Rix Logo"> </a>
+	</div>
+	<div id ="container">
+	  <header id ="header">
+		<h1 id="title" style = "text-align:center;">Rix Pool and Spa Survey Form</h1>
+		<p id = "description" style = "text-align:center;">
+		  Let us hear about your experience with our service!
+		</p>
+	  </header>
+	  <form>
+		<div class="surveyinput">
+		  <label>Name</label>
+		  <input
+			type="text"
+		    id = "name"
+			class="inputboxes"
+			placeholder="Enter name here..."
+			required
+		  />
+		</div>
+		<div class="surveyinput">
+		  <label id="email-label" for="email">Email</label>
+		  <input
+			type="email"
+			id="email"
+			class="inputboxes"
+			placeholder="Enter email here..."
+			required
+		  />
+		</div>
+		<div class="surveyinput">
+			<label> Address (optional) </label>
+			  <input
+				type="text"
+				id="address"
+				class="inputboxes"
+				placeholder="Address"
+			  />
+		</div>
+		  
+		<div class="surveyinput">
+		  <p>Which type of pool do you own? </p>
+		  <select class="inputboxes" required>
+			<option disabled selected value>Select an option...</option>
+			<option value="aboveground">Above Ground Pool</option>
+			<option value="inground">In Ground Pool</option>
+			<option value="spa">Spa/Sauna</option>
+			<option value="none">None of the above</option>
+			<option value="other">Other</option>
+		  </select>
+		</div>
+
+		<div class="surveyinput">
+		  <p>Would you recommend Rix Pool and Spa to a friend?</p>
+		  <label>
+			<input
+			  name = "recommend-answer"
+			  value="Yes, of course!"
+			  type="radio"
+			  class="radiobuttons"
+			/>Yes, of course! </label>
+		  <label>
+			<input
+			  name = "recommend-answer"
+			  value="Maybe..."
+			  type="radio"
+			  class="radiobuttons"
+			/>Maybe...</label>
+
+		  <label
+			><input
+			  name = "recommend-answer"
+			  value="Probably not."
+			  type="radio"
+			  class="radiobuttons"
+			/> Probably not. </label>
+			<label>
+			<input
+			  name = "recommend-answer"
+			  value="No, not at all!"
+			  type="radio"
+			  class="radiobuttons"
+			/>No, not at all!</label>
+		</div>
+
+		<div class="surveyinput">
+		  <p>
+			What did you appreciate most about our service? 
+		  </p>
+		  <select required class="inputboxes">
+			<option disabled selected value>Select an option...</option>
+			<option value="attitude">Friendly and kind service</option>
+			<option value="speed">Quick and efficient results</option>
+			<option value="accuracy">Accurate and working solutions</option>
+			<option value="cost">Low and affordable cost</option>
+			<option value="none">None of the above</option>
+		  </select>
+		</div>
+
+		<div class="surveyinput">
+		  <p>
+			What would you like us to improve in the future? (Select all that apply).
+		  </p>
+
+		  <label>
+			  <input
+			  value="Employee-attitudes"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Employee Attitudes</label>
+		  <label>
+			<input
+			  value="work-speed"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Work Speed</label>
+		  <label>
+			  <input
+			  value="store-layout"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Store Layout</label>
+		  <label>
+			  <input
+			  value="Product Stocking"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Product Stocking</label>
+		  <label>
+			  <input
+			  value="Lower-cost"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Lower Costs</label>
+		  <label>
+			  <input
+			  value="service-response-times"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Service Response Times</label>
+		  <label>
+			  <input
+			  value="service-noise"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Service Noise Levels</label>
+		  <label>
+			  <input
+			  value="other"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Other</label>
+		  <label>
+			  <input
+			  value="none"
+			  type="checkbox"
+			  class="checkboxes"
+			/>Nothing to improve!</label>
+		</div>
+
+		<div class="surveyinput">
+		  <p>Any other questions, comments, or suggestions?</p>
+		  <textarea
+			id ="textbox"
+			placeholder="Any feedback is appreciated!"
+		  ></textarea>
+		</div>
+
+		<div class="surveyinput">
+		  <button type="submit" id="submit">
+			Submit!
+		  </button>
+		</div>
+	  </form>
+	</div>
+</body>
+</html>
