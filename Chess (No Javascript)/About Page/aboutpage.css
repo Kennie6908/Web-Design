@@ -22,7 +22,30 @@ h1 {
 	width: 80%; 
 }
 
-#biobox {
+h2, 
+p {
+	margin-left: 20px; 
+	margin-right: 40px; 
+	line-height: 40px; 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+p{
+	font-size: 20px; 
+}
+
+h2{
+	font-size: 32px;
+}
+
+#logo {
+	position: relative; 
+	float: right;
+	bottom: 570px; 
+	right: 70px; ; 
+}
+
+#aboutbox {
 	padding-top: 20px;
 	background-color: #c0c0c0;
 	color: black;
@@ -35,36 +58,17 @@ h1 {
 	font-size: 18px; 
 }
 
-#logo {
-	position: relative; 
-	float: right;
-	bottom: 570px; 
-	right: 70px; 
-}
-
-#video{
-	position: relative;
-	float: right; 
-	bottom: 250px; 
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 18px;
-	margin-right: 30px; 
-}
 
 #footer{
 	float:right;
 	position: relative; 
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
 	font-size: 18px; 
-	left: px; 
-	top: 60px; 
+	left: 40px; 
+	top: 40px; 
 	color: antiquewhite;
 }
 
 .referencelinks {
 	color: antiquewhite; 
-}
-
-.playerlinks:hover{
-	color:red;
 }
